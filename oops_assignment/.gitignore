@@ -1,4 +1,13 @@
-/bin/
+.settings/
+bin/
+tmp/
+.metadata
 .classpath
-.settings
 .project
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+.factorypath
