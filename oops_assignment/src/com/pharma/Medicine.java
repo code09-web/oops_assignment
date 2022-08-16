@@ -1,12 +1,17 @@
 package com.pharma;
 
-import java.util.Date;
 
 public abstract class Medicine {
-	Date expiryDate;
+	String expiryDate,name;
 	float price;
+	
 
 	public abstract void displayLabel();
+	public void getDetails(float price, String expiryDate,String name) {
+		System.out.println("Name:"+name);
+		System.out.println("Price:"+price);
+		System.out.println("expiryDate:"+expiryDate);
+	}
 }
 
 class Tablet extends Medicine {
